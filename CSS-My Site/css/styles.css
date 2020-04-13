@@ -128,12 +128,13 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
-  font-size: : 0.75rem;
+  font-size: 0.75rem;
   padding: 20px 0;
 }
 
 .contact-me-button {
    background: #11CDD4;
+   background-image: -webkit-gradient(top, #11CDD4, #11999E);
    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
@@ -147,11 +148,11 @@ a:hover {
    font-size: 20px;
    font-weight: 100;
    padding: 20px;
-   box-shadow: 1px 1px 20px 0px #000000;
-   -webkit-box-shadow: 1px 1px 20px 0px #000000;
-   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+     box-shadow: 1px 1px 20px 0 #000000;
    text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 0px;
+   border: solid #337FED 1px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -161,6 +162,7 @@ a:hover {
 .contact-me-button:hover {
    border: solid #337FED 1px;
    background: #30E3CB;
+   background-image: -webkit-gradient(top, #30E3CB, #2BC4AD);
    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
